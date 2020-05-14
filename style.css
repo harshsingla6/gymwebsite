@@ -1,0 +1,81 @@
+ /* NAVBAR SECTION */
+#navbar{
+    display:flex;
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 101%;
+    margin-top: -8px;
+    margin-left: -9px;    
+}
+#navbar ul li{
+    display:flex;
+}
+#navbar ul{
+    display:flex;
+    margin: auto;
+}
+#navbar ul li a{
+    /* display: block; */
+    /* padding: 17px 8px; */
+    /* margin: 9px 3px; */
+    /* text-decoration: none; */
+    /* text-align: right; */
+    display: flex;
+    color: white;
+    justify-content:right;
+    right: 35px;
+    align-items: center;
+    padding: 10px 10px;
+     text-decoration:none;}
+    
+#logo img{
+    height: 65px;
+    margin: 20px 20px; 
+}
+.btn{
+    position: absolute;
+    border: 0px;
+    background-color: #ffdd00;
+    right: 160px;
+    margin: 31px 15px;
+    text-align: right;
+    padding: 8px 10px;
+}
+.btn1{
+    position: absolute;
+    border: 0px;
+    background-color:rgb(75, 76, 179);
+    box-sizing: none;
+    right: 27px;
+    margin: 31px 15px;
+    text-align: right;
+    padding: 8px 10px;
+}
+ /* SECTION PORTION */
+#str video{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: -8px;
+    z-index: -1;
+    opacity: 1.4;
+}
+#strong{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 37px 234px;
+    opacity: 0.9;
+}
+#heading{
+    margin: -51px 273px;
+    color: white;
+}
+.btn3{
+    margin: 71px 440px;
+}
+.btn4{
+    margin: 0px -409px;
+}
+
